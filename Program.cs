@@ -36,6 +36,8 @@ namespace DIO.Series
                 }
                 opcaoUsuario = ObterOpcaoUsuario();
             }
+            Console.WriteLine("Obrigado por utilizar nossos serviços.");
+            Console.ReadLine();
         }
         private static void ExcluirSerie()
         {
@@ -95,8 +97,7 @@ namespace DIO.Series
                 if (!excluido)
                 {
                     Console.WriteLine("#ID {0}: - {1}", serie.retornaID(), serie.retornaTitulo());
-                }
-                          
+                }           
             }
         }
 
